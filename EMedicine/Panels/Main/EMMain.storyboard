@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="prS-qo-Vto">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="way-5d-hFj">
+            <objects>
+                <viewController id="DFZ-NL-rGL" customClass="EMMainTab2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KQ3-0X-IYV"/>
+                        <viewControllerLayoutGuide type="bottom" id="3lg-rO-Gl3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zgd-dT-nAr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fui-aF-tTb">
+                                <rect key="frame" x="255" y="110" width="90" height="30"/>
+                                <state key="normal" title="进入登陆界面">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="intoLogin:" destination="DFZ-NL-rGL" eventType="touchUpInside" id="g3c-RF-4qr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuP-xV-kUc">
+                                <rect key="frame" x="247" y="72" width="105" height="30"/>
+                                <state key="normal" title="进入新特性界面">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="intoNewfearture:" destination="DFZ-NL-rGL" eventType="touchUpInside" id="QL0-gA-0tA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="KuP-xV-kUc" secondAttribute="centerX" id="GE0-Fp-M4l"/>
+                            <constraint firstItem="Fui-aF-tTb" firstAttribute="top" secondItem="KuP-xV-kUc" secondAttribute="bottom" constant="8" id="Qg6-il-mtU"/>
+                            <constraint firstItem="KuP-xV-kUc" firstAttribute="top" secondItem="KQ3-0X-IYV" secondAttribute="bottom" constant="8" id="QpP-dk-J8B"/>
+                            <constraint firstAttribute="centerX" secondItem="Fui-aF-tTb" secondAttribute="centerX" id="m3y-TG-9Qh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="IIl-dR-oZX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOY-I7-Lcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534" y="370"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="t2q-u9-AgG">
+            <objects>
+                <viewController id="msN-70-c9h" customClass="EMMainTab1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EeV-DH-bSK"/>
+                        <viewControllerLayoutGuide type="bottom" id="pnV-Rk-EJd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PWH-IA-M6S">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ml-Vk-hqa">
+                                <rect key="frame" x="247" y="72" width="105" height="30"/>
+                                <state key="normal" title="进入新特性界面">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="intoNewfearture:" destination="msN-70-c9h" eventType="touchUpInside" id="DF6-mR-LA8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5Z-Gq-qfQ">
+                                <rect key="frame" x="255" y="110" width="90" height="30"/>
+                                <state key="normal" title="进入登陆界面">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="intoLogin:" destination="msN-70-c9h" eventType="touchUpInside" id="Gwy-da-Pua"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2ml-Vk-hqa" firstAttribute="top" secondItem="EeV-DH-bSK" secondAttribute="bottom" constant="8" id="EjP-yx-aDw"/>
+                            <constraint firstAttribute="centerX" secondItem="2ml-Vk-hqa" secondAttribute="centerX" id="IDQ-dV-a7U"/>
+                            <constraint firstAttribute="centerX" secondItem="y5Z-Gq-qfQ" secondAttribute="centerX" id="UHa-S5-HVi"/>
+                            <constraint firstItem="y5Z-Gq-qfQ" firstAttribute="top" secondItem="2ml-Vk-hqa" secondAttribute="bottom" constant="8" id="tqb-yl-1aa"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Knh-fI-DmF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ng-TZ-6OB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534" y="-289"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WyT-fF-8Db">
+            <objects>
+                <navigationController id="prS-qo-Vto" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NS3-tf-IMJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3b5-ap-zBn" kind="relationship" relationship="rootViewController" id="a4u-Gc-4H0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p6f-TB-12H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-872" y="12"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="35D-j6-sAm">
+            <objects>
+                <tabBarController id="3b5-ap-zBn" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PCI-NB-oWk"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="7kI-6b-2Xp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="msN-70-c9h" kind="relationship" relationship="viewControllers" id="IIa-Qa-6Na"/>
+                        <segue destination="DFZ-NL-rGL" kind="relationship" relationship="viewControllers" id="TFE-4D-LUt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZZ-fF-RxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-186" y="12"/>
+        </scene>
+    </scenes>
+</document>

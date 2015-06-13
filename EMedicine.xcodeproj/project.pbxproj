@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DAA9DF329C05201230EA201 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B73FC4631D5CDE3B6985BD43 /* libPods.a */; };
+		5002F66C1B2A7CC1003F847A /* EMDebugVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5002F66A1B2A7CC1003F847A /* EMDebugVC.m */; };
+		5002F6841B2A88B0003F847A /* EMFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5002F6831B2A88B0003F847A /* EMFileUtil.m */; };
+		5002F6881B2A89A2003F847A /* EMDebugLogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5002F6871B2A89A2003F847A /* EMDebugLogDataSource.m */; };
+		5002F68E1B2AA537003F847A /* OpenDebugGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5002F68D1B2AA537003F847A /* OpenDebugGestureRecognizer.m */; };
+		50C140451B2C68C400E7940D /* EMDebugLogCLassFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C1403E1B2C68C400E7940D /* EMDebugLogCLassFilterVC.m */; };
+		50C140461B2C68C400E7940D /* EMDebugLogContiansFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C140401B2C68C400E7940D /* EMDebugLogContiansFilterVC.m */; };
+		50C140471B2C68C400E7940D /* EMDebugLogTypeFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C140421B2C68C400E7940D /* EMDebugLogTypeFilterVC.m */; };
+		50C140481B2C68C400E7940D /* EMDebugLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C140441B2C68C400E7940D /* EMDebugLogVC.m */; };
+		50C1404B1B2C68CF00E7940D /* EMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C1404A1B2C68CF00E7940D /* EMLogger.m */; };
+		50C1404E1B2C691500E7940D /* EMContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C1404D1B2C691500E7940D /* EMContainerViewController.m */; };
+		50FACB211B285BA6005D7434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB201B285BA6005D7434 /* main.m */; };
+		50FACB241B285BA6005D7434 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB231B285BA6005D7434 /* AppDelegate.m */; };
+		50FACB271B285BA6005D7434 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB261B285BA6005D7434 /* ViewController.m */; };
+		50FACB2A1B285BA6005D7434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FACB281B285BA6005D7434 /* Main.storyboard */; };
+		50FACB2C1B285BA6005D7434 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FACB2B1B285BA6005D7434 /* Images.xcassets */; };
+		50FACB2F1B285BA6005D7434 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FACB2D1B285BA6005D7434 /* LaunchScreen.xib */; };
+		50FACB3B1B285BA6005D7434 /* EMedicineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB3A1B285BA6005D7434 /* EMedicineTests.m */; };
+		50FACB471B285C8D005D7434 /* EMStartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB461B285C8D005D7434 /* EMStartVC.m */; };
+		50FACB4D1B285D0E005D7434 /* EMStartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FACB4C1B285D0E005D7434 /* EMStartVC.xib */; };
+		50FACB571B287070005D7434 /* VCTransitionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB561B287070005D7434 /* VCTransitionUtil.m */; };
+		50FACB5B1B28762A005D7434 /* UIView+EMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB5A1B28762A005D7434 /* UIView+EMExtension.m */; };
+		50FACB691B288362005D7434 /* EMAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB681B288362005D7434 /* EMAppContext.m */; };
+		50FACB7A1B2957F3005D7434 /* EMViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB791B2957F3005D7434 /* EMViewControllerManager.m */; };
+		50FACB7D1B296223005D7434 /* NSObject+EMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB7C1B296223005D7434 /* NSObject+EMExtension.m */; };
+		50FACB8C1B2971FD005D7434 /* EMLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB811B2971FD005D7434 /* EMLoginVC.m */; };
+		50FACB8D1B2971FD005D7434 /* EMLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FACB821B2971FD005D7434 /* EMLoginVC.xib */; };
+		50FACB901B2971FD005D7434 /* EMNewfeatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB891B2971FD005D7434 /* EMNewfeatureVC.m */; };
+		50FACB911B2971FD005D7434 /* EMNewfeatureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FACB8A1B2971FD005D7434 /* EMNewfeatureVC.xib */; };
+		50FACB981B297E20005D7434 /* EMForgetPassWord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FACB971B297E20005D7434 /* EMForgetPassWord.storyboard */; };
+		50FACB9B1B298158005D7434 /* EMForgetPassword1.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB9A1B298158005D7434 /* EMForgetPassword1.m */; };
+		50FACB9E1B29816A005D7434 /* EMForgetPassword2.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACB9D1B29816A005D7434 /* EMForgetPassword2.m */; };
+		50FACBA11B29817D005D7434 /* EMForgetPassword3.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBA01B29817D005D7434 /* EMForgetPassword3.m */; };
+		50FACBA41B2981CA005D7434 /* EMForgetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBA31B2981CA005D7434 /* EMForgetPasswordVC.m */; };
+		50FACBA61B2988A1005D7434 /* EMRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FACBA51B2988A1005D7434 /* EMRegister.storyboard */; };
+		50FACBAF1B298913005D7434 /* EMRegister1.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBA81B298913005D7434 /* EMRegister1.m */; };
+		50FACBB01B298913005D7434 /* EMRegister2.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBAA1B298913005D7434 /* EMRegister2.m */; };
+		50FACBB11B298913005D7434 /* EMRegister3.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBAC1B298913005D7434 /* EMRegister3.m */; };
+		50FACBB21B298913005D7434 /* EMRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBAE1B298913005D7434 /* EMRegisterVC.m */; };
+		50FACBB41B298C68005D7434 /* EMMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FACBB31B298C68005D7434 /* EMMain.storyboard */; };
+		50FACBB71B29903D005D7434 /* EMMainTab1.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBB61B29903D005D7434 /* EMMainTab1.m */; };
+		50FACBBA1B29904D005D7434 /* EMMainTab2.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBB91B29904D005D7434 /* EMMainTab2.m */; };
+		50FACBBD1B2992AE005D7434 /* EMMainTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FACBBC1B2992AE005D7434 /* EMMainTabVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50FACB351B285BA6005D7434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50FACB131B285BA6005D7434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50FACB1A1B285BA6005D7434;
+			remoteInfo = EMedicine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5002F6691B2A7CC1003F847A /* EMDebugVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugVC.h; sourceTree = "<group>"; };
+		5002F66A1B2A7CC1003F847A /* EMDebugVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugVC.m; sourceTree = "<group>"; };
+		5002F6821B2A88B0003F847A /* EMFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFileUtil.h; sourceTree = "<group>"; };
+		5002F6831B2A88B0003F847A /* EMFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMFileUtil.m; sourceTree = "<group>"; };
+		5002F6861B2A89A2003F847A /* EMDebugLogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogDataSource.h; sourceTree = "<group>"; };
+		5002F6871B2A89A2003F847A /* EMDebugLogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogDataSource.m; sourceTree = "<group>"; };
+		5002F68C1B2AA537003F847A /* OpenDebugGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenDebugGestureRecognizer.h; sourceTree = "<group>"; };
+		5002F68D1B2AA537003F847A /* OpenDebugGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenDebugGestureRecognizer.m; sourceTree = "<group>"; };
+		50A026E61B2B09F7003B785D /* EMedicine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMedicine-Prefix.pch"; sourceTree = "<group>"; };
+		50C1403D1B2C68C400E7940D /* EMDebugLogCLassFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogCLassFilterVC.h; sourceTree = "<group>"; };
+		50C1403E1B2C68C400E7940D /* EMDebugLogCLassFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogCLassFilterVC.m; sourceTree = "<group>"; };
+		50C1403F1B2C68C400E7940D /* EMDebugLogContiansFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogContiansFilterVC.h; sourceTree = "<group>"; };
+		50C140401B2C68C400E7940D /* EMDebugLogContiansFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogContiansFilterVC.m; sourceTree = "<group>"; };
+		50C140411B2C68C400E7940D /* EMDebugLogTypeFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogTypeFilterVC.h; sourceTree = "<group>"; };
+		50C140421B2C68C400E7940D /* EMDebugLogTypeFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogTypeFilterVC.m; sourceTree = "<group>"; };
+		50C140431B2C68C400E7940D /* EMDebugLogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogVC.h; sourceTree = "<group>"; };
+		50C140441B2C68C400E7940D /* EMDebugLogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogVC.m; sourceTree = "<group>"; };
+		50C140491B2C68CF00E7940D /* EMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLogger.h; sourceTree = "<group>"; };
+		50C1404A1B2C68CF00E7940D /* EMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLogger.m; sourceTree = "<group>"; };
+		50C1404C1B2C691500E7940D /* EMContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMContainerViewController.h; sourceTree = "<group>"; };
+		50C1404D1B2C691500E7940D /* EMContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMContainerViewController.m; sourceTree = "<group>"; };
+		50FACB1B1B285BA6005D7434 /* EMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FACB1F1B285BA6005D7434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FACB201B285BA6005D7434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50FACB221B285BA6005D7434 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50FACB231B285BA6005D7434 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50FACB251B285BA6005D7434 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50FACB261B285BA6005D7434 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50FACB291B285BA6005D7434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50FACB2B1B285BA6005D7434 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50FACB2E1B285BA6005D7434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50FACB341B285BA6005D7434 /* EMedicineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMedicineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FACB391B285BA6005D7434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FACB3A1B285BA6005D7434 /* EMedicineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMedicineTests.m; sourceTree = "<group>"; };
+		50FACB451B285C8D005D7434 /* EMStartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStartVC.h; sourceTree = "<group>"; };
+		50FACB461B285C8D005D7434 /* EMStartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStartVC.m; sourceTree = "<group>"; };
+		50FACB4C1B285D0E005D7434 /* EMStartVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMStartVC.xib; sourceTree = "<group>"; };
+		50FACB551B287070005D7434 /* VCTransitionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTransitionUtil.h; sourceTree = "<group>"; };
+		50FACB561B287070005D7434 /* VCTransitionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTransitionUtil.m; sourceTree = "<group>"; };
+		50FACB591B28762A005D7434 /* UIView+EMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EMExtension.h"; sourceTree = "<group>"; };
+		50FACB5A1B28762A005D7434 /* UIView+EMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EMExtension.m"; sourceTree = "<group>"; };
+		50FACB671B288362005D7434 /* EMAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAppContext.h; sourceTree = "<group>"; };
+		50FACB681B288362005D7434 /* EMAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAppContext.m; sourceTree = "<group>"; };
+		50FACB781B2957F3005D7434 /* EMViewControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewControllerManager.h; sourceTree = "<group>"; };
+		50FACB791B2957F3005D7434 /* EMViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMViewControllerManager.m; sourceTree = "<group>"; };
+		50FACB7B1B296223005D7434 /* NSObject+EMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EMExtension.h"; sourceTree = "<group>"; };
+		50FACB7C1B296223005D7434 /* NSObject+EMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EMExtension.m"; sourceTree = "<group>"; };
+		50FACB801B2971FD005D7434 /* EMLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLoginVC.h; sourceTree = "<group>"; };
+		50FACB811B2971FD005D7434 /* EMLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLoginVC.m; sourceTree = "<group>"; };
+		50FACB821B2971FD005D7434 /* EMLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMLoginVC.xib; sourceTree = "<group>"; };
+		50FACB881B2971FD005D7434 /* EMNewfeatureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMNewfeatureVC.h; sourceTree = "<group>"; };
+		50FACB891B2971FD005D7434 /* EMNewfeatureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMNewfeatureVC.m; sourceTree = "<group>"; };
+		50FACB8A1B2971FD005D7434 /* EMNewfeatureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMNewfeatureVC.xib; sourceTree = "<group>"; };
+		50FACB971B297E20005D7434 /* EMForgetPassWord.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EMForgetPassWord.storyboard; sourceTree = "<group>"; };
+		50FACB991B298158005D7434 /* EMForgetPassword1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMForgetPassword1.h; sourceTree = "<group>"; };
+		50FACB9A1B298158005D7434 /* EMForgetPassword1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMForgetPassword1.m; sourceTree = "<group>"; };
+		50FACB9C1B29816A005D7434 /* EMForgetPassword2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMForgetPassword2.h; sourceTree = "<group>"; };
+		50FACB9D1B29816A005D7434 /* EMForgetPassword2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMForgetPassword2.m; sourceTree = "<group>"; };
+		50FACB9F1B29817D005D7434 /* EMForgetPassword3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMForgetPassword3.h; sourceTree = "<group>"; };
+		50FACBA01B29817D005D7434 /* EMForgetPassword3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMForgetPassword3.m; sourceTree = "<group>"; };
+		50FACBA21B2981CA005D7434 /* EMForgetPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMForgetPasswordVC.h; sourceTree = "<group>"; };
+		50FACBA31B2981CA005D7434 /* EMForgetPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMForgetPasswordVC.m; sourceTree = "<group>"; };
+		50FACBA51B2988A1005D7434 /* EMRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EMRegister.storyboard; sourceTree = "<group>"; };
+		50FACBA71B298913005D7434 /* EMRegister1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRegister1.h; sourceTree = "<group>"; };
+		50FACBA81B298913005D7434 /* EMRegister1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRegister1.m; sourceTree = "<group>"; };
+		50FACBA91B298913005D7434 /* EMRegister2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRegister2.h; sourceTree = "<group>"; };
+		50FACBAA1B298913005D7434 /* EMRegister2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRegister2.m; sourceTree = "<group>"; };
+		50FACBAB1B298913005D7434 /* EMRegister3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRegister3.h; sourceTree = "<group>"; };
+		50FACBAC1B298913005D7434 /* EMRegister3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRegister3.m; sourceTree = "<group>"; };
+		50FACBAD1B298913005D7434 /* EMRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRegisterVC.h; sourceTree = "<group>"; };
+		50FACBAE1B298913005D7434 /* EMRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRegisterVC.m; sourceTree = "<group>"; };
+		50FACBB31B298C68005D7434 /* EMMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EMMain.storyboard; sourceTree = "<group>"; };
+		50FACBB51B29903D005D7434 /* EMMainTab1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMainTab1.h; sourceTree = "<group>"; };
+		50FACBB61B29903D005D7434 /* EMMainTab1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMainTab1.m; sourceTree = "<group>"; };
+		50FACBB81B29904D005D7434 /* EMMainTab2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMainTab2.h; sourceTree = "<group>"; };
+		50FACBB91B29904D005D7434 /* EMMainTab2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMainTab2.m; sourceTree = "<group>"; };
+		50FACBBB1B2992AE005D7434 /* EMMainTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMainTabVC.h; sourceTree = "<group>"; };
+		50FACBBC1B2992AE005D7434 /* EMMainTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMainTabVC.m; sourceTree = "<group>"; };
+		7F2A30755BF7CC943197239F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8D3F5BF06E329F3516817159 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B73FC4631D5CDE3B6985BD43 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50FACB181B285BA6005D7434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAA9DF329C05201230EA201 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FACB311B285BA6005D7434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD61E932EBE4E967136E205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73FC4631D5CDE3B6985BD43 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5002F6651B2A7C8D003F847A /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				5002F6731B2A8001003F847A /* EMLog */,
+				5002F6691B2A7CC1003F847A /* EMDebugVC.h */,
+				5002F66A1B2A7CC1003F847A /* EMDebugVC.m */,
+				5002F68C1B2AA537003F847A /* OpenDebugGestureRecognizer.h */,
+				5002F68D1B2AA537003F847A /* OpenDebugGestureRecognizer.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		5002F6731B2A8001003F847A /* EMLog */ = {
+			isa = PBXGroup;
+			children = (
+				50C140491B2C68CF00E7940D /* EMLogger.h */,
+				50C1404A1B2C68CF00E7940D /* EMLogger.m */,
+				50C1403C1B2C68C400E7940D /* panels */,
+				5002F6851B2A8983003F847A /* Data */,
+			);
+			path = EMLog;
+			sourceTree = "<group>";
+		};
+		5002F6851B2A8983003F847A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5002F6861B2A89A2003F847A /* EMDebugLogDataSource.h */,
+				5002F6871B2A89A2003F847A /* EMDebugLogDataSource.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		50C1403C1B2C68C400E7940D /* panels */ = {
+			isa = PBXGroup;
+			children = (
+				50C1403D1B2C68C400E7940D /* EMDebugLogCLassFilterVC.h */,
+				50C1403E1B2C68C400E7940D /* EMDebugLogCLassFilterVC.m */,
+				50C1403F1B2C68C400E7940D /* EMDebugLogContiansFilterVC.h */,
+				50C140401B2C68C400E7940D /* EMDebugLogContiansFilterVC.m */,
+				50C140411B2C68C400E7940D /* EMDebugLogTypeFilterVC.h */,
+				50C140421B2C68C400E7940D /* EMDebugLogTypeFilterVC.m */,
+				50C140431B2C68C400E7940D /* EMDebugLogVC.h */,
+				50C140441B2C68C400E7940D /* EMDebugLogVC.m */,
+			);
+			path = panels;
+			sourceTree = "<group>";
+		};
+		50FACB121B285BA6005D7434 = {
+			isa = PBXGroup;
+			children = (
+				50FACB1D1B285BA6005D7434 /* EMedicine */,
+				50FACB371B285BA6005D7434 /* EMedicineTests */,
+				50FACB1C1B285BA6005D7434 /* Products */,
+				5C3DD729167103FCA038222A /* Pods */,
+				4DD61E932EBE4E967136E205 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50FACB1C1B285BA6005D7434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB1B1B285BA6005D7434 /* EMedicine.app */,
+				50FACB341B285BA6005D7434 /* EMedicineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FACB1D1B285BA6005D7434 /* EMedicine */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB661B288362005D7434 /* EMComponents */,
+				50FACB581B2875D3005D7434 /* Extensions */,
+				50FACB541B28703E005D7434 /* Utils */,
+				50FACB441B285C46005D7434 /* Panels */,
+				50FACB221B285BA6005D7434 /* AppDelegate.h */,
+				50FACB231B285BA6005D7434 /* AppDelegate.m */,
+				50FACB251B285BA6005D7434 /* ViewController.h */,
+				50FACB261B285BA6005D7434 /* ViewController.m */,
+				50FACB281B285BA6005D7434 /* Main.storyboard */,
+				50FACB2B1B285BA6005D7434 /* Images.xcassets */,
+				50FACB2D1B285BA6005D7434 /* LaunchScreen.xib */,
+				50FACB1E1B285BA6005D7434 /* Supporting Files */,
+				50A026E61B2B09F7003B785D /* EMedicine-Prefix.pch */,
+			);
+			path = EMedicine;
+			sourceTree = "<group>";
+		};
+		50FACB1E1B285BA6005D7434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB1F1B285BA6005D7434 /* Info.plist */,
+				50FACB201B285BA6005D7434 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50FACB371B285BA6005D7434 /* EMedicineTests */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB3A1B285BA6005D7434 /* EMedicineTests.m */,
+				50FACB381B285BA6005D7434 /* Supporting Files */,
+			);
+			path = EMedicineTests;
+			sourceTree = "<group>";
+		};
+		50FACB381B285BA6005D7434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB391B285BA6005D7434 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50FACB441B285C46005D7434 /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				5002F6651B2A7C8D003F847A /* Debug */,
+				50FACB7E1B2971FD005D7434 /* ForgetPassword */,
+				50FACB7F1B2971FD005D7434 /* Login */,
+				50FACB831B2971FD005D7434 /* Main */,
+				50FACB871B2971FD005D7434 /* Newfeature */,
+				50FACB8B1B2971FD005D7434 /* Register */,
+				50FACB451B285C8D005D7434 /* EMStartVC.h */,
+				50FACB461B285C8D005D7434 /* EMStartVC.m */,
+				50FACB4C1B285D0E005D7434 /* EMStartVC.xib */,
+			);
+			path = Panels;
+			sourceTree = "<group>";
+		};
+		50FACB541B28703E005D7434 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB551B287070005D7434 /* VCTransitionUtil.h */,
+				50FACB561B287070005D7434 /* VCTransitionUtil.m */,
+				5002F6821B2A88B0003F847A /* EMFileUtil.h */,
+				5002F6831B2A88B0003F847A /* EMFileUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		50FACB581B2875D3005D7434 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB591B28762A005D7434 /* UIView+EMExtension.h */,
+				50FACB5A1B28762A005D7434 /* UIView+EMExtension.m */,
+				50FACB7B1B296223005D7434 /* NSObject+EMExtension.h */,
+				50FACB7C1B296223005D7434 /* NSObject+EMExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50FACB661B288362005D7434 /* EMComponents */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB671B288362005D7434 /* EMAppContext.h */,
+				50FACB681B288362005D7434 /* EMAppContext.m */,
+				50FACB781B2957F3005D7434 /* EMViewControllerManager.h */,
+				50FACB791B2957F3005D7434 /* EMViewControllerManager.m */,
+				50C1404C1B2C691500E7940D /* EMContainerViewController.h */,
+				50C1404D1B2C691500E7940D /* EMContainerViewController.m */,
+			);
+			path = EMComponents;
+			sourceTree = "<group>";
+		};
+		50FACB7E1B2971FD005D7434 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB971B297E20005D7434 /* EMForgetPassWord.storyboard */,
+				50FACB991B298158005D7434 /* EMForgetPassword1.h */,
+				50FACB9A1B298158005D7434 /* EMForgetPassword1.m */,
+				50FACB9C1B29816A005D7434 /* EMForgetPassword2.h */,
+				50FACB9D1B29816A005D7434 /* EMForgetPassword2.m */,
+				50FACB9F1B29817D005D7434 /* EMForgetPassword3.h */,
+				50FACBA01B29817D005D7434 /* EMForgetPassword3.m */,
+				50FACBA21B2981CA005D7434 /* EMForgetPasswordVC.h */,
+				50FACBA31B2981CA005D7434 /* EMForgetPasswordVC.m */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		50FACB7F1B2971FD005D7434 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB801B2971FD005D7434 /* EMLoginVC.h */,
+				50FACB811B2971FD005D7434 /* EMLoginVC.m */,
+				50FACB821B2971FD005D7434 /* EMLoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		50FACB831B2971FD005D7434 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				50FACBB51B29903D005D7434 /* EMMainTab1.h */,
+				50FACBB61B29903D005D7434 /* EMMainTab1.m */,
+				50FACBB81B29904D005D7434 /* EMMainTab2.h */,
+				50FACBB91B29904D005D7434 /* EMMainTab2.m */,
+				50FACBB31B298C68005D7434 /* EMMain.storyboard */,
+				50FACBBB1B2992AE005D7434 /* EMMainTabVC.h */,
+				50FACBBC1B2992AE005D7434 /* EMMainTabVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		50FACB871B2971FD005D7434 /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+				50FACB881B2971FD005D7434 /* EMNewfeatureVC.h */,
+				50FACB891B2971FD005D7434 /* EMNewfeatureVC.m */,
+				50FACB8A1B2971FD005D7434 /* EMNewfeatureVC.xib */,
+			);
+			path = Newfeature;
+			sourceTree = "<group>";
+		};
+		50FACB8B1B2971FD005D7434 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				50FACBA71B298913005D7434 /* EMRegister1.h */,
+				50FACBA81B298913005D7434 /* EMRegister1.m */,
+				50FACBA91B298913005D7434 /* EMRegister2.h */,
+				50FACBAA1B298913005D7434 /* EMRegister2.m */,
+				50FACBAB1B298913005D7434 /* EMRegister3.h */,
+				50FACBAC1B298913005D7434 /* EMRegister3.m */,
+				50FACBAD1B298913005D7434 /* EMRegisterVC.h */,
+				50FACBAE1B298913005D7434 /* EMRegisterVC.m */,
+				50FACBA51B2988A1005D7434 /* EMRegister.storyboard */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		5C3DD729167103FCA038222A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F5BF06E329F3516817159 /* Pods.debug.xcconfig */,
+				7F2A30755BF7CC943197239F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50FACB1A1B285BA6005D7434 /* EMedicine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FACB3E1B285BA6005D7434 /* Build configuration list for PBXNativeTarget "EMedicine" */;
+			buildPhases = (
+				21C92960EE7265C49981DF1E /* Check Pods Manifest.lock */,
+				50FACB171B285BA6005D7434 /* Sources */,
+				50FACB181B285BA6005D7434 /* Frameworks */,
+				50FACB191B285BA6005D7434 /* Resources */,
+				02EBF16DF6D24055A0A309F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMedicine;
+			productName = EMedicine;
+			productReference = 50FACB1B1B285BA6005D7434 /* EMedicine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50FACB331B285BA6005D7434 /* EMedicineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FACB411B285BA6005D7434 /* Build configuration list for PBXNativeTarget "EMedicineTests" */;
+			buildPhases = (
+				50FACB301B285BA6005D7434 /* Sources */,
+				50FACB311B285BA6005D7434 /* Frameworks */,
+				50FACB321B285BA6005D7434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50FACB361B285BA6005D7434 /* PBXTargetDependency */,
+			);
+			name = EMedicineTests;
+			productName = EMedicineTests;
+			productReference = 50FACB341B285BA6005D7434 /* EMedicineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50FACB131B285BA6005D7434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lyxia;
+				TargetAttributes = {
+					50FACB1A1B285BA6005D7434 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					50FACB331B285BA6005D7434 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 50FACB1A1B285BA6005D7434;
+					};
+				};
+			};
+			buildConfigurationList = 50FACB161B285BA6005D7434 /* Build configuration list for PBXProject "EMedicine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50FACB121B285BA6005D7434;
+			productRefGroup = 50FACB1C1B285BA6005D7434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50FACB1A1B285BA6005D7434 /* EMedicine */,
+				50FACB331B285BA6005D7434 /* EMedicineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50FACB191B285BA6005D7434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FACB2A1B285BA6005D7434 /* Main.storyboard in Resources */,
+				50FACBB41B298C68005D7434 /* EMMain.storyboard in Resources */,
+				50FACB2F1B285BA6005D7434 /* LaunchScreen.xib in Resources */,
+				50FACB2C1B285BA6005D7434 /* Images.xcassets in Resources */,
+				50FACB911B2971FD005D7434 /* EMNewfeatureVC.xib in Resources */,
+				50FACB8D1B2971FD005D7434 /* EMLoginVC.xib in Resources */,
+				50FACB981B297E20005D7434 /* EMForgetPassWord.storyboard in Resources */,
+				50FACBA61B2988A1005D7434 /* EMRegister.storyboard in Resources */,
+				50FACB4D1B285D0E005D7434 /* EMStartVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FACB321B285BA6005D7434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02EBF16DF6D24055A0A309F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21C92960EE7265C49981DF1E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FACB171B285BA6005D7434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FACB8C1B2971FD005D7434 /* EMLoginVC.m in Sources */,
+				50FACB7A1B2957F3005D7434 /* EMViewControllerManager.m in Sources */,
+				50FACBBA1B29904D005D7434 /* EMMainTab2.m in Sources */,
+				50FACBA11B29817D005D7434 /* EMForgetPassword3.m in Sources */,
+				50C140451B2C68C400E7940D /* EMDebugLogCLassFilterVC.m in Sources */,
+				50C140481B2C68C400E7940D /* EMDebugLogVC.m in Sources */,
+				50C1404B1B2C68CF00E7940D /* EMLogger.m in Sources */,
+				50FACBA41B2981CA005D7434 /* EMForgetPasswordVC.m in Sources */,
+				50FACB271B285BA6005D7434 /* ViewController.m in Sources */,
+				5002F6841B2A88B0003F847A /* EMFileUtil.m in Sources */,
+				50C1404E1B2C691500E7940D /* EMContainerViewController.m in Sources */,
+				50C140461B2C68C400E7940D /* EMDebugLogContiansFilterVC.m in Sources */,
+				50FACBB11B298913005D7434 /* EMRegister3.m in Sources */,
+				5002F68E1B2AA537003F847A /* OpenDebugGestureRecognizer.m in Sources */,
+				50FACB9E1B29816A005D7434 /* EMForgetPassword2.m in Sources */,
+				5002F66C1B2A7CC1003F847A /* EMDebugVC.m in Sources */,
+				50FACBB71B29903D005D7434 /* EMMainTab1.m in Sources */,
+				50FACBAF1B298913005D7434 /* EMRegister1.m in Sources */,
+				50C140471B2C68C400E7940D /* EMDebugLogTypeFilterVC.m in Sources */,
+				50FACB5B1B28762A005D7434 /* UIView+EMExtension.m in Sources */,
+				50FACB7D1B296223005D7434 /* NSObject+EMExtension.m in Sources */,
+				50FACB571B287070005D7434 /* VCTransitionUtil.m in Sources */,
+				50FACBBD1B2992AE005D7434 /* EMMainTabVC.m in Sources */,
+				50FACBB01B298913005D7434 /* EMRegister2.m in Sources */,
+				50FACB241B285BA6005D7434 /* AppDelegate.m in Sources */,
+				50FACB901B2971FD005D7434 /* EMNewfeatureVC.m in Sources */,
+				50FACB211B285BA6005D7434 /* main.m in Sources */,
+				50FACB691B288362005D7434 /* EMAppContext.m in Sources */,
+				5002F6881B2A89A2003F847A /* EMDebugLogDataSource.m in Sources */,
+				50FACBB21B298913005D7434 /* EMRegisterVC.m in Sources */,
+				50FACB9B1B298158005D7434 /* EMForgetPassword1.m in Sources */,
+				50FACB471B285C8D005D7434 /* EMStartVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FACB301B285BA6005D7434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FACB3B1B285BA6005D7434 /* EMedicineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50FACB361B285BA6005D7434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50FACB1A1B285BA6005D7434 /* EMedicine */;
+			targetProxy = 50FACB351B285BA6005D7434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50FACB281B285BA6005D7434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FACB291B285BA6005D7434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50FACB2D1B285BA6005D7434 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FACB2E1B285BA6005D7434 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50FACB3C1B285BA6005D7434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50FACB3D1B285BA6005D7434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50FACB3F1B285BA6005D7434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3F5BF06E329F3516817159 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EMedicine/EMedicine-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Aspects\"",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = EMedicine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50FACB401B285BA6005D7434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2A30755BF7CC943197239F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EMedicine/EMedicine-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Aspects\"",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = EMedicine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50FACB421B285BA6005D7434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EMedicineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMedicine.app/EMedicine";
+			};
+			name = Debug;
+		};
+		50FACB431B285BA6005D7434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EMedicineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMedicine.app/EMedicine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50FACB161B285BA6005D7434 /* Build configuration list for PBXProject "EMedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FACB3C1B285BA6005D7434 /* Debug */,
+				50FACB3D1B285BA6005D7434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FACB3E1B285BA6005D7434 /* Build configuration list for PBXNativeTarget "EMedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FACB3F1B285BA6005D7434 /* Debug */,
+				50FACB401B285BA6005D7434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FACB411B285BA6005D7434 /* Build configuration list for PBXNativeTarget "EMedicineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FACB421B285BA6005D7434 /* Debug */,
+				50FACB431B285BA6005D7434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50FACB131B285BA6005D7434 /* Project object */;
+}
